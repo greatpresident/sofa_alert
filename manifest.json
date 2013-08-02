@@ -1,0 +1,22 @@
+{
+  "name": "人人沙发监测器",
+  "description": "谁TM又抢了沙发？",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "sofa.jpeg",
+    "default_title": "沙发监测器",
+    "default_popup": "popup.html"
+  },
+  "icons" : {     
+    "48" : "sofa.jpeg",
+    "64" : "sofa.jpeg"
+  },
+  "permissions": [
+    "tabs", "http://www.renren.com/*"
+  ],
+  "content_scripts": [{
+  	"matches": ["http://www.renren.com/*"],
+  	"js": ["detect.js"]
+  }]
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>人人沙发检测器弹窗</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+      
+      #contentDiv p { 
+        display:block;
+        color:#404352; 
+        border:1px solid #F7F8FF;
+        text-decoration:none;
+        margin:2px;
+        padding:2px;
+        background:#F6F7FF;
+        cursor: pointer;
+        border-radius:4px;
+        background: -webkit-gradient(linear, left top, left bottom,color-stop(0.0, #F7F8FF),color-stop(1.0, #FFF));
+      }
+
+      #contentDiv p:hover { 
+        background:#FFF;
+          -webkit-box-shadow: 0 0px 3px rgba(0,80,128,0.5);
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+  </head>
+  <body>
+    <script charset="utf-8" src="popup.js"></script>
+  </body>
+</html>
+
