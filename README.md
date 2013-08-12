@@ -10,4 +10,5 @@ usage:
   2. Sign in Renren.com.
   3. Click the sofa icon in the upper right conner. Bazinga!
   4. If nothing interesting, scroll the Renren web page and click the icon again.
+    (The extension will load more news feed.)
   
