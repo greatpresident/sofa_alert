@@ -4,6 +4,7 @@ sofa_alert
 A Chrome extension scanning who catch sofa in my Renren.com
 
 usage:
+  0. Click "Download ZIP" and extract the archive.
   1. Add it on your Chrome:
     Chrome > Extensions > Load unpacked extension... > select the folder.
   2. Sign in Renren.com.
